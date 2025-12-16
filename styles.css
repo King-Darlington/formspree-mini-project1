@@ -1,20 +1,30 @@
+# Professional CSS Styling
 
 body {
     background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%); /* Light, professional gradient */
     min-height: 100vh; /* Ensures the gradient covers the whole page */
     display: flex;
     flex-direction: column;
+    font-family: 'Arial', sans-serif; /* Professional font */
+    color: #333; /* Darker text for better readability */
 }
 
 .container {
     padding-top: 20px;
     padding-bottom: 20px;
+    max-width: 1200px; /* Limit the width for better layout */
+    margin: auto; /* Center the container */
 }
 
 .btn-primary {
     background-color: #0056b3; /* A deeper blue for a professional look */
     border-color: #0056b3;
+    color: white; /* White text for contrast */
+    padding: 10px 20px; /* Increased padding for a better button size */
+    border-radius: 5px; /* Rounded corners for a modern look */
     transition: background-color 0.3s ease, transform 0.1s ease;
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Ensure proper spacing */
 }
 
 .btn-primary:hover {
@@ -26,8 +36,15 @@ body {
 .logo-text {
     font-weight: 700;
     color: #0056b3 !important; /* Ensuring the header text uses a consistent color */
-} 
+    font-size: 24px; /* Larger font size for emphasis */
+    margin-bottom: 20px; /* Space below the logo */
+}
+
 .card {
     border-radius: 15px;
     border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the card */
+    background-color: white; /* White background for contrast */
 }
+
